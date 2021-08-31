@@ -1,4 +1,4 @@
-A prototype of a multi-page website to offer services or products.
+A prototype of a responsive multi-page website to offer services or products.
 
 Built with `Bootstrap 5`, `HTML5` and a little bit of `CSS3`.
 
