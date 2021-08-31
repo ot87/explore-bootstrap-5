@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./img/favicon.png" rel="icon" type="image/png">
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Explore! Contact</title>
+</head>
+<body class="d-flex flex-column h-100 bg-light">
+    <header>
+        <nav class="navbar navbar-expand navbar-dark custom-primary">
+            <div class="container col-xxl-8 flex-column flex-sm-row justify-content-center justify-content-sm-between">
+                <a href="./index.html" class="navbar-brand fs-4">
+                    <img src="./img/logo.png" alt="Logo" width="30" height="30" class="rounded-circle align-text-top">
+                    Explore!
+                </a>
+                <nav class="navbar-nav flex-wrap justify-content-center">
+                    <a href="./index.html" class="nav-link">Home</a>
+                    <a href="./options.html" class="nav-link">Options</a>
+                    <a href="./pricing.html" class="nav-link">Pricing</a>
+                    <a href="#" class="nav-link active" aria-current="page">Contact</a>
+                    <a href="./about.html" class="nav-link">About</a>
+                </nav>
+            </div>
+        </nav>
+    </header>
+    <main class="container col-lg-8 col-xxl-6 bg-white py-3">
+        <div class="py-3 py-lg-5 text-center">
+            <h2>Contact us</h2>
+        </div>
+        <form class="needs-validation m-1 m-sm-3 m-md-5" novalidate>
+            <div class="row g-3 g-lg-5">
+                <div class="col-sm-6">
+                    <label for="firstName" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="firstName" required>
+                    <div class="invalid-feedback">
+                        Valid first name is required.
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <label for="lastName" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="lastName" required>
+                    <div class="invalid-feedback">
+                        Valid last name is required.
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                    <div class="invalid-feedback">
+                        Please enter a valid email address.
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="news">
+                        <label class="form-check-label" for="news">Agree to receive our news</label>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <label for="options" class="form-label">Options</label>
+                    <select class="form-select" id="options" required>
+                        <option value="">Choose...</option>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Please select an option.
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <h5>Plan</h5>
+                    <div class="form-check">
+                        <input id="basic" name="plan" type="radio" class="form-check-input" required>
+                        <label class="form-check-label" for="basic">Basic</label>
+                    </div>
+                    <div class="form-check">
+                        <input id="optimal" name="plan" type="radio" class="form-check-input" required>
+                        <label class="form-check-label" for="optimal">Optimal</label>
+                    </div>
+                    <div class="form-check">
+                        <input id="luxurious" name="plan" type="radio" class="form-check-input" required>
+                        <label class="form-check-label" for="luxurious">Luxurious</label>
+                        <div class="invalid-feedback">
+                            Please choose a plan.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <label for="message" class="form-label">Message <span class="text-muted">(Optional)</span></label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4 mx-auto">
+                    <button class="w-100 btn btn-custom-primary btn-lg text-light" type="submit">Send</button>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer class="footer mt-auto p-3 custom-primary">
+        <div class="container col-xxl-8 text-center">
+            <span class="text-white-50">Footer content</span>
+        </div>
+    </footer>
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap/js/form-validation.js"></script>
+</body>
+</html>

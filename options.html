@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./img/favicon.png" rel="icon" type="image/png">
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Explore! Options</title>
+</head>
+<body class="d-flex flex-column h-100 bg-light">
+    <header>
+        <nav class="navbar navbar-expand navbar-dark custom-primary">
+            <div class="container col-xxl-8 flex-column flex-sm-row justify-content-center justify-content-sm-between">
+                <a href="./index.html" class="navbar-brand fs-4">
+                    <img src="./img/logo.png" alt="Logo" width="30" height="30" class="rounded-circle align-text-top">
+                    Explore!
+                </a>
+                <nav class="navbar-nav flex-wrap justify-content-center">
+                    <a href="./index.html" class="nav-link">Home</a>
+                    <a href="#" class="nav-link active" aria-current="page">Options</a>
+                    <a href="./pricing.html" class="nav-link">Pricing</a>
+                    <a href="./contact.html" class="nav-link">Contact</a>
+                    <a href="./about.html" class="nav-link">About</a>
+                </nav>
+            </div>
+        </nav>
+    </header>
+    <main class="container col-xxl-8 bg-white py-3 py-lg-5">
+        <section>
+            <div id="firstOption" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#firstOption" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#firstOption" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/palm-beach.png" class="d-block img-fluid" alt="Palm Beach">
+                        <div class="carousel-caption d-md-block text-dark option-background">
+                            <h5>Option 1</h5>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/villa.jpg" class="d-block img-fluid" alt="Villa">
+                        <div class="carousel-caption d-md-block text-dark option-background">
+                            <h5>Option 1</h5>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#firstOption" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#firstOption" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="text-center p-3 p-lg-5">
+                <h2 class="display-5 fw-bold lh-1 my-3">
+                    Option 1
+                </h2>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio urna, semper sed sem et, dictum auctor tellus. Sed blandit diam quis est efficitur, id condimentum augue cursus. Duis mi nisl, tempus quis tellus laoreet, bibendum varius mi.
+                </p>
+                <p>
+                    Aenean sed purus ac leo laoreet pharetra a non mi. Pellentesque euismod cursus malesuada. Suspendisse at sagittis metus, ultrices posuere urna. Suspendisse potenti. Maecenas et rutrum arcu. Nulla diam odio, tempus ut sagittis et, interdum vitae nulla. Sed a urna nisi.
+                </p>
+            </div>
+            <div class="row g-4 pb-3 pb-lg-5 row-cols-1 row-cols-lg-3">
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                        <img src="./img/toggles2.svg" alt="Toggles Icon" class="icon">
+                    </div>
+                    <div>
+                        <h2>Feature 1</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio urna, semper sed sem et, dictum auctor tellus. Sed blandit diam quis est efficitur, id condimentum augue cursus.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                        <img src="./img/cpu-fill.svg" alt="Cpu Icon" class="icon">
+                    </div>
+                    <div>
+                        <h2>Feature 2</h2>
+                        <p>Duis mi nisl, tempus quis tellus laoreet, bibendum varius mi. Aenean sed purus ac leo laoreet pharetra a non mi. Pellentesque euismod cursus malesuada.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                        <img src="./img/tools.svg" alt="Tools Icon" class="icon">
+                    </div>
+                    <div>
+                        <h2>Feature 3</h2>
+                        <p>Suspendisse at sagittis metus, ultrices posuere urna. Suspendisse potenti. Maecenas et rutrum arcu. Nulla diam odio, tempus ut sagittis et, interdum vitae nulla. Sed a urna nisi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pb-3">
+                <a href="./pricing.html">
+                    <button type="button" class="btn btn-custom-primary text-light btn-lg px-4">Explore pricing</button>
+                </a>
+            </div>
+        </section>
+
+        <hr class="my-3 my-lg-5">
+
+        <section>
+            <div id="secondOption" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#secondOption" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#secondOption" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/palm-beach.png" class="d-block img-fluid" alt="Palm Beach">
+                        <div class="carousel-caption d-md-block text-dark option-background">
+                            <h5>Option 2</h5>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/villa.jpg" class="d-block img-fluid" alt="Villa">
+                        <div class="carousel-caption d-md-block text-dark option-background">
+                            <h5>Option 2</h5>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#secondOption" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#secondOption" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="text-center p-3 p-lg-5">
+                <h2 class="display-5 fw-bold lh-1 my-3">
+                    Option 2
+                </h2>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio urna, semper sed sem et, dictum auctor tellus. Sed blandit diam quis est efficitur, id condimentum augue cursus. Duis mi nisl, tempus quis tellus laoreet, bibendum varius mi.
+                </p>
+                <p>
+                    Aenean sed purus ac leo laoreet pharetra a non mi. Pellentesque euismod cursus malesuada. Suspendisse at sagittis metus, ultrices posuere urna. Suspendisse potenti. Maecenas et rutrum arcu. Nulla diam odio, tempus ut sagittis et, interdum vitae nulla. Sed a urna nisi.
+                </p>
+            </div>
+            <div class="row g-4 pb-3 pb-lg-5 row-cols-1 row-cols-lg-3">
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                        <img src="./img/toggles2.svg" alt="Toggles Icon" class="icon">
+                    </div>
+                    <div>
+                        <h2>Feature 1</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio urna, semper sed sem et, dictum auctor tellus. Sed blandit diam quis est efficitur, id condimentum augue cursus.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                        <img src="./img/cpu-fill.svg" alt="Cpu Icon" class="icon">
+                    </div>
+                    <div>
+                        <h2>Feature 2</h2>
+                        <p>Duis mi nisl, tempus quis tellus laoreet, bibendum varius mi. Aenean sed purus ac leo laoreet pharetra a non mi. Pellentesque euismod cursus malesuada.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                        <img src="./img/tools.svg" alt="Tools Icon" class="icon">
+                    </div>
+                    <div>
+                        <h2>Feature 3</h2>
+                        <p>Suspendisse at sagittis metus, ultrices posuere urna. Suspendisse potenti. Maecenas et rutrum arcu. Nulla diam odio, tempus ut sagittis et, interdum vitae nulla. Sed a urna nisi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pb-3">
+                <a href="./pricing.html">
+                    <button type="button" class="btn btn-custom-primary text-light btn-lg px-4">Explore pricing</button>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer mt-auto p-3 custom-primary">
+        <div class="container col-xxl-8 text-center">
+            <span class="text-white-50">Footer content</span>
+        </div>
+    </footer>
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
